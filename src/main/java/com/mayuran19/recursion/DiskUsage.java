@@ -24,7 +24,7 @@ public class DiskUsage {
         }else{
             total = total + path.length();
         }
-        System.out.println(STR."Total: \{path.toPath().toAbsolutePath()}:\{total}");
+        System.out.println("Total: " + path.toPath().toAbsolutePath() + ":" + total);
 
         return total;
     }
